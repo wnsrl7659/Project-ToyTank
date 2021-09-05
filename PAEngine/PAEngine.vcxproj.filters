@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\App.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Window.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Timer.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PAEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Log.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EventProcessor.cpp">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EventQueue.cpp">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EventSystem.cpp">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EventRegistry.cpp">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EventTester.cpp">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Physics.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneTest.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneManager.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneTest.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputHandler.cpp">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameCommands.cpp">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ServiceLocator.cpp">
+      <Filter>Source\Util\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SoundSystem.cpp">
+      <Filter>Source\Core\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui.cpp">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui_demo.cpp">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui_draw.cpp">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui_impl_dx11.cpp">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui_impl_win32.cpp">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui_widgets.cpp">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PAGui.cpp">
+      <Filter>Source\Core\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PAGuiWidgets.cpp">
+      <Filter>Source\Core\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PAGuiWindow.cpp">
+      <Filter>Source\Core\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Vectors.cpp" />
+    <ClCompile Include="source\Vectors.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputDevices.cpp" />
+    <ClCompile Include="source\InputType.cpp" />
+    <ClCompile Include="source\SoundEventHandler.cpp">
+      <Filter>Source\Core\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pch.cpp" />
+    <ClCompile Include="source\InputDevices.cpp">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputType.cpp">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlayerController.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Player.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScenePlayerTest.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Component.cpp">
+      <Filter>Source\Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModelComponent.cpp">
+      <Filter>Source\Core\GameObject\Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnvironmentManager.cpp">
+      <Filter>Source\Behaviors\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ChildTransform.cpp">
+      <Filter>Source\Core\GameObject\Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectManager.cpp">
+      <Filter>Source\Core\GameObject\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectFactory.cpp">
+      <Filter>Source\Core\GameObject\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Grid.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PerformanceMonitor.cpp" />
+    <ClCompile Include="source\SceneCastle.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PerformanceMonitor.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AIBehavior.cpp">
+      <Filter>Source\Behaviors\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FlagBehavior.cpp">
+      <Filter>Source\Behaviors\Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameInputHandler.cpp">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameObject.cpp" />
+    <ClCompile Include="source\GameObject.cpp">
+      <Filter>Source\Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Behavior.cpp">
+      <Filter>Source\Core\GameObject\Components\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Transform.cpp">
+      <Filter>Source\Core\GameObject\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TransformManager.cpp">
+      <Filter>Source\Core\GameObject\Managers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ChilldTransformManager.cpp">
+      <Filter>Source\Core\GameObject\Managers\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ComponentManager.cpp">
+      <Filter>Source\Core\GameObject\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModelManager.cpp">
+      <Filter>Source\Core\GameObject\Managers\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BehaviorManager.cpp">
+      <Filter>Source\Core\GameObject\Managers\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletBehavior.cpp">
+      <Filter>Source\Behaviors\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlayerWin.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GaugeBehavior.cpp">
+      <Filter>Source\Behaviors\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlayerBehavStateDefault.cpp">
+      <Filter>Source\Behaviors\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AIBehavStateDefault.cpp">
+      <Filter>Source\Behaviors\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FlagBehavStateDefault.cpp">
+      <Filter>Source\Behaviors\Flag\States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GaugeBehavStateDefault.cpp">
+      <Filter>Source\Behaviors\Gauge\States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletBehavStateDefault.cpp">
+      <Filter>Source\Behaviors\Bullet\States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlayerBehavStateRapidFire.cpp">
+      <Filter>Source\Behaviors\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlayerBehavior.cpp">
+      <Filter>Source\Behaviors\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AstarBehavStateDefault.cpp">
+      <Filter>Source\Behaviors\Astar\States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AstarBehavior.cpp">
+      <Filter>Source\Behaviors\Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PowerUpsBehavStateDefault.cpp">
+      <Filter>Source\Behaviors\PowerUps\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PowerUpsBehavior.cpp">
+      <Filter>Source\Behaviors\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Particle.cpp">
+      <Filter>Source\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleManager.cpp">
+      <Filter>Source\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleEmitter.cpp">
+      <Filter>Source\Core\GameObject\Components\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleEmitterManager.cpp">
+      <Filter>Source\Core\GameObject\Managers\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleBehaviors.cpp">
+      <Filter>Source\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlayerAttributesController.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PlayerBehavStateDead.cpp">
+      <Filter>Source\Behaviors\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CameraManager.cpp">
+      <Filter>Source\Core\GameObject\Managers\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CameraComponent.cpp">
+      <Filter>Source\Core\GameObject\Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RNG.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputConnectionHandler.cpp">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SceneDigipen.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneMenu.cpp">
+      <Filter>Source\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FuelDepotBehavior.cpp">
+      <Filter>Source\Behaviors\FuelDepot</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FuelDepotBehavStateDefault.cpp">
+      <Filter>Source\Behaviors\FuelDepot\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\App.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Timer.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Log.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventProcessor.h">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventRegistry.h">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventQueue.h">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventSystem.h">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventTester.h">
+      <Filter>Source\Core\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneTest.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneManager.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneTest.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameCommands.h">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputHandler.h">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ServiceLocator.h">
+      <Filter>Source\Util\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoundSystem.h">
+      <Filter>Source\Core\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mesh.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imconfig.h">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui.h">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui_impl_dx11.h">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui_impl_win32.h">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui_internal.h">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imstb_rectpack.h">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imstb_textedit.h">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imstb_truetype.h">
+      <Filter>Source\Core\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PAGui.h">
+      <Filter>Source\Core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PAGuiWidgets.h">
+      <Filter>Source\Core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PAGuiWindow.h">
+      <Filter>Source\Core\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vectors.h" />
+    <ClInclude Include="include\Vectors.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputDevices.h" />
+    <ClInclude Include="include\InputType.h" />
+    <ClInclude Include="include\SoundEventHandler.h">
+      <Filter>Source\Core\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pch.h" />
+    <ClInclude Include="include\InputDevices.h">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputType.h">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerController.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScenePlayerTest.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component.h">
+      <Filter>Source\Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModelComponent.h">
+      <Filter>Source\Core\GameObject\Components\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnvironmentManager.h">
+      <Filter>Source\Behaviors\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ChildTransform.h">
+      <Filter>Source\Core\GameObject\Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ObjectManager.h">
+      <Filter>Source\Core\GameObject\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ObjectFactory.h">
+      <Filter>Source\Core\GameObject\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Grid.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PerformanceMonitor.h" />
+    <ClInclude Include="include\SceneCastle.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PerformanceMonitor.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\AIBehavior.h">
+      <Filter>Source\Behaviors\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FlagBehavior.h">
+      <Filter>Source\Behaviors\Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameInputHandler.h">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h">
+      <Filter>Source\Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behavior.h">
+      <Filter>Source\Core\GameObject\Components\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transform.h">
+      <Filter>Source\Core\GameObject\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TransformManager.h">
+      <Filter>Source\Core\GameObject\Managers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ChildTransformManager.h">
+      <Filter>Source\Core\GameObject\Managers\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ComponentManager.h">
+      <Filter>Source\Core\GameObject\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModelManager.h">
+      <Filter>Source\Core\GameObject\Managers\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviorManager.h">
+      <Filter>Source\Core\GameObject\Managers\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BulletBehavior.h">
+      <Filter>Source\Behaviors\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerWin.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GaugeBehavior.h">
+      <Filter>Source\Behaviors\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviorState.h">
+      <Filter>Source\Core\GameObject\Components\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerBehavStateDefault.h">
+      <Filter>Source\Behaviors\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AIBehavStateDefault.h">
+      <Filter>Source\Behaviors\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FlagBehavStateDefault.h">
+      <Filter>Source\Behaviors\Flag\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GaugeBehavStateDefault.h">
+      <Filter>Source\Behaviors\Gauge\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BulletBehavStateDefault.h">
+      <Filter>Source\Behaviors\Bullet\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerBehavStateRapidFire.h">
+      <Filter>Source\Behaviors\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerBehavior.h">
+      <Filter>Source\Behaviors\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerConfig.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AstarBehavStateDefault.h">
+      <Filter>Source\Behaviors\Astar\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AstarBehavior.h">
+      <Filter>Source\Behaviors\Astar</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PowerUpsBehavStateDefault.h">
+      <Filter>Source\Behaviors\PowerUps\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PowerUpsBehavior.h">
+      <Filter>Source\Behaviors\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Particle.h">
+      <Filter>Source\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParticleManager.h">
+      <Filter>Source\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParticleEmitter.h">
+      <Filter>Source\Core\GameObject\Components\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParticleEmitterManager.h">
+      <Filter>Source\Core\GameObject\Managers\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParticleBehaviors.h">
+      <Filter>Source\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerAttributesController.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerBehavStateDead.h">
+      <Filter>Source\Behaviors\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CameraManager.h">
+      <Filter>Source\Core\GameObject\Managers\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CameraComponent.h">
+      <Filter>Source\Core\GameObject\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RNG.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FuelDepotBehavior.h">
+      <Filter>Source\Behaviors\FuelDepot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FuelDepotBehavStateDefault.h" />
+    <ClInclude Include="include\InputConnectionHandler.h">
+      <Filter>Source\Core\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneDigipen.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneMenu.h">
+      <Filter>Source\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FuelDepotBehavStateDefault.h">
+      <Filter>Source\Behaviors\FuelDepot\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{66fddccf-4f30-4703-9d98-1466c5214c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4421b36c-54cc-47d0-b1b5-0f6be107992e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{b34bceb2-33f4-4c9a-902e-dc225dd00538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Util">
+      <UniqueIdentifier>{ee22489e-e996-4da2-88a3-1d4cedcc3bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\EventSystem">
+      <UniqueIdentifier>{77b6553d-f44f-4eaf-a776-b69561a6fa0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics">
+      <UniqueIdentifier>{a6225442-862b-49cc-bf5e-8ff5f0832f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Scene">
+      <UniqueIdentifier>{5b8e59ec-6507-42d4-a568-ee7652e70f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Scene">
+      <UniqueIdentifier>{89205ec1-96e9-4ea9-aea2-d367e1906d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Util\Pattern">
+      <UniqueIdentifier>{7670cd81-2db3-43fe-a979-ce2ae336fea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\InputSystem">
+      <UniqueIdentifier>{9139fa95-f57a-450e-9755-8a4d66a255dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Audio">
+      <UniqueIdentifier>{ec8df6bf-fe65-4e80-9962-9060dbd1b722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\imgui">
+      <UniqueIdentifier>{faa94587-538f-4289-b069-d3995831c45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\imgui\include">
+      <UniqueIdentifier>{b5568b04-e763-4b30-981e-d2473bd42614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Player">
+      <UniqueIdentifier>{256f8972-4960-4e42-a9fe-c2ef355b06dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors">
+      <UniqueIdentifier>{19c73aa7-6d7f-438a-85f7-7ffc46ca5ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Environment">
+      <UniqueIdentifier>{dad10ead-7314-4d8b-be1d-1ca2ad2b8955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Player">
+      <UniqueIdentifier>{821cffc8-7b4a-4827-808a-037168b4fc26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\AI">
+      <UniqueIdentifier>{0490f35a-af70-40bb-ab12-c13ced392e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Flag">
+      <UniqueIdentifier>{7f707fa3-0271-4c50-8999-ce8b252b40cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject">
+      <UniqueIdentifier>{1fb8ce45-09e2-45f3-a55b-6ea9c02703e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Components">
+      <UniqueIdentifier>{78ebde6b-b1a4-4775-8058-09b8d9f052a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Components\Transform">
+      <UniqueIdentifier>{d919379d-d9b2-4f0d-a484-0608beb50685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Components\Model">
+      <UniqueIdentifier>{baa1ebbd-6d32-4ab9-a98f-52663588a87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Components\Behavior">
+      <UniqueIdentifier>{0fda4926-088c-4d87-b86c-5b5c7593a615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Factory">
+      <UniqueIdentifier>{78956998-f803-4536-801d-bfb4c6706acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Managers">
+      <UniqueIdentifier>{e6ba9142-60b7-413e-9eac-aaaa083cf69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Managers\Behavior">
+      <UniqueIdentifier>{59e0052e-b870-45f3-8449-cd54f4450e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Managers\Model">
+      <UniqueIdentifier>{437efe4b-8ec1-453f-8110-b24754b700b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Managers\Transform">
+      <UniqueIdentifier>{25406618-d5a8-4537-8406-1e7914595ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Managers\Physics">
+      <UniqueIdentifier>{cc5968a3-a69a-416f-b32c-f5b864d21eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Components\Physics">
+      <UniqueIdentifier>{3c8f6ea2-ccdb-45a6-8dd0-ec9f723e5cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Bullet">
+      <UniqueIdentifier>{ac7de1f8-86b1-4381-9f0b-f1b6c86a77f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Gauge">
+      <UniqueIdentifier>{433a1e18-206d-428b-8e9b-bc55a4e80518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Player\States">
+      <UniqueIdentifier>{2cbfbd01-c251-47b6-8113-cfeed557feb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\AI\States">
+      <UniqueIdentifier>{d4906f87-499d-4cbc-98f3-fe5129a5b8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Flag\States">
+      <UniqueIdentifier>{8a0d72f3-2476-4bf1-93b0-c8b0e8d657cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Gauge\States">
+      <UniqueIdentifier>{1b6cfa9e-52c5-4cfa-ae91-2d46249f1e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Bullet\States">
+      <UniqueIdentifier>{2ffb3f43-d001-4ebe-bda5-2b637910f7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Astar">
+      <UniqueIdentifier>{fd8537f5-7399-4d96-b59b-6f36c06b1572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\Astar\States">
+      <UniqueIdentifier>{1d997b8f-d31d-414d-9415-52cf8ee4ab01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\PowerUps">
+      <UniqueIdentifier>{71c6ecbe-aa68-460c-b6af-053198e30698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\PowerUps\Stats">
+      <UniqueIdentifier>{6a53c5e8-ae3c-4c67-906d-ebc14633a721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Particles">
+      <UniqueIdentifier>{61cfacc3-cad5-4c81-a62d-b2494bbcdb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Components\Particles">
+      <UniqueIdentifier>{a823fee3-4a91-4927-9abf-290e01dd23cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Managers\Particles">
+      <UniqueIdentifier>{2028170b-fe9d-481b-98af-14ea8a89a091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Components\Camera">
+      <UniqueIdentifier>{af6e71a5-787e-4dca-a97b-c733a214a466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\GameObject\Managers\Camera">
+      <UniqueIdentifier>{9d9f51ba-c961-4887-976c-e32bb4eddea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\FuelDepot">
+      <UniqueIdentifier>{fcae7b50-762a-4428-afa6-57af35626d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Behaviors\FuelDepot\States">
+      <UniqueIdentifier>{152f647f-3aa1-4ca4-b3d4-865104a2b7d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

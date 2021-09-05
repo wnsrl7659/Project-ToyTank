@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PARenderAPI">
+      <UniqueIdentifier>{93aa7073-6120-4ccf-91cc-7dbf222be4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{9726ad78-b734-4c5e-ae66-594ae29da1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Assets">
+      <UniqueIdentifier>{1b58c642-7d4c-41fa-90a0-b021a74a5851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{3d917fa7-b3f8-43be-b85b-dcc1a41e2492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Assets\Textures">
+      <UniqueIdentifier>{73ef8316-1f2b-4320-9875-7b142b08d16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Assets\Models">
+      <UniqueIdentifier>{b2a62961-7730-44b3-b040-3c2769e585ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\RenderingViews">
+      <UniqueIdentifier>{8b258227-7dc6-434c-96a3-ca6c393d6eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\RenderingViews\TargetView">
+      <UniqueIdentifier>{eb7a408a-551f-4b8c-84b6-9ae37ac711d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\RenderingViews\ResourceView">
+      <UniqueIdentifier>{643a805e-3c50-4664-a4ba-cb9d17474488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Core">
+      <UniqueIdentifier>{528ef762-8e97-477d-8a0c-c1d3a079aa22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets">
+      <UniqueIdentifier>{e93a295e-e6c9-4e3d-8db5-fe9fd1d79848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Models">
+      <UniqueIdentifier>{fbee53c1-e7a0-4c01-8f80-27624db9186d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Textures">
+      <UniqueIdentifier>{35892328-a9d9-49d5-8736-98d5872c568b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderingViews">
+      <UniqueIdentifier>{1fd71930-a8c3-40b6-a0aa-906434056b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderingViews\TargetView">
+      <UniqueIdentifier>{1f103314-8204-4c4d-b7ad-4c11da3d65df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderingViews\ResourceView">
+      <UniqueIdentifier>{aadd58a8-92c1-4ecf-ad44-2675d036f5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{47a6d00a-7b8f-4190-a4b3-e704646864e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Shaders">
+      <UniqueIdentifier>{3eae518d-c4a2-4c06-bb16-d726b2f2cb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Shaders\vertex">
+      <UniqueIdentifier>{f8f27766-4111-486a-bd5f-b08218056027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Shaders\pixel">
+      <UniqueIdentifier>{5b4d697e-c990-4955-a4f3-b330bc50b082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{b78ec5aa-33e3-4d5b-8424-c15fd32d19a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\RenderingViews\DepthStencilView">
+      <UniqueIdentifier>{a45f7b23-0ff6-4a76-a178-6ed837ee1c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderingViews\DepthStencilView">
+      <UniqueIdentifier>{dff219a2-9fda-4ea6-918d-a4a6cd2eaf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Shaders\Geometry">
+      <UniqueIdentifier>{9f317c78-e05a-4118-ab3a-1017ae641c9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\PARenderAPI\IModel.h">
+      <Filter>Header Files\PARenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PARenderAPI\IRenderEngine.h">
+      <Filter>Header Files\PARenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PARenderAPI\IScene.h">
+      <Filter>Header Files\PARenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PARenderAPI\RenderTypes.h">
+      <Filter>Header Files\PARenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PARenderAPI\IRenderer.h">
+      <Filter>Header Files\PARenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PARenderPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PARenderAPI\IShaderProgram.h">
+      <Filter>Header Files\PARenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ShaderProgram.h">
+      <Filter>Header Files\Engine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PARenderAPI\ICamera.h">
+      <Filter>Header Files\PARenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DXTK\WICTextureLoader.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Texture.h">
+      <Filter>Header Files\Engine\Assets\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Mesh.h">
+      <Filter>Header Files\Engine\Assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Model.h">
+      <Filter>Header Files\Engine\Assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Vertex.h">
+      <Filter>Header Files\Engine\Assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\MultiRenderTargetView.h">
+      <Filter>Header Files\Engine\RenderingViews\TargetView</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\RenderTargetView.h">
+      <Filter>Header Files\Engine\RenderingViews\TargetView</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\MultiShaderResourceView.h">
+      <Filter>Header Files\Engine\RenderingViews\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ShaderResourceView.h">
+      <Filter>Header Files\Engine\RenderingViews\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Scene.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Camera.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\RenderEngine.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Renderer.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DepthStencilView.h">
+      <Filter>Header Files\Engine\RenderingViews\DepthStencilView</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PARenderAPI\ILight.h">
+      <Filter>Header Files\PARenderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Light.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\PARenderPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Source Files\Assets\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>Source Files\Assets\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>Source Files\Assets\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MultiRenderTargetView.cpp">
+      <Filter>Source Files\RenderingViews\TargetView</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MultiShaderResourceView.cpp">
+      <Filter>Source Files\RenderingViews\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderTargetView.cpp">
+      <Filter>Source Files\RenderingViews\TargetView</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderResourceView.cpp">
+      <Filter>Source Files\RenderingViews\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderProgram.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderEngine.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DepthStencilView.cpp">
+      <Filter>Source Files\RenderingViews\DepthStencilView</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Light.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="data\shaders\TestVertexShader.hlsl">
+      <Filter>Header Files\Engine\Shaders\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\TestPixelShader.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\LightingPixelDefault.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\LightingVertexDefault.hlsl">
+      <Filter>Header Files\Engine\Shaders\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\GBufferPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\GBufferVertex.hlsl">
+      <Filter>Header Files\Engine\Shaders\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\SkyBoxPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\SkyBoxVertex.hlsl">
+      <Filter>Header Files\Engine\Shaders\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\ToScreenPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\SSAOBlurPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\SSAOPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\ShadowMapPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\ShadowMapVertex.hlsl">
+      <Filter>Header Files\Engine\Shaders\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\OutlinePixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\OutlineVertex.hlsl">
+      <Filter>Header Files\Engine\Shaders\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\SSAOBlurPixelHor.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\SSAOBlurRealPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\ColorPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\MiniMapPixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\VignettePixel.hlsl">
+      <Filter>Header Files\Engine\Shaders\pixel</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
